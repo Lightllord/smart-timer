@@ -5,6 +5,7 @@ import {RouterModule, Routes} from '@angular/router';
 const routes: Routes = [
   {
     path: '',
+    pathMatch: 'full',
     redirectTo: 'main'
   },
   {
@@ -15,7 +16,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forChild(routes)
+    RouterModule.forRoot(routes)
   ],
   exports: [
     RouterModule
