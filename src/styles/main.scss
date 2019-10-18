@@ -21,3 +21,26 @@ body {
   width: 100%;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-content-grow-by-h {
+  min-height: 0;
+  flex: 1 1 auto;
+}
+
+.f-content-grow-by-w {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.f-content-stay {
+  flex: 0 0 auto;
+}
+
+
